@@ -65,3 +65,12 @@ def test_add():
 **point2**では`assert`文を使って、テストしています。
 
 
+
+
+## 参考
+
+- [Pythonのpytest-watchモジュールでテスト駆動開発が捗った - Qiita](https://qiita.com/kai_kou/items/2a494289f6b28da3361a)
+  - pytest-watchの紹介
+- [pytestのとりあえず知っておきたい使い方 - Qiita](https://qiita.com/kg1/items/4e2cae18e9bd39f014d4)
+  - 細かいオプション
+  - ディレクトリ構成の例
