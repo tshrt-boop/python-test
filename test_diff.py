@@ -12,13 +12,16 @@ def test_diff_new_record1():
             "restore":  ""
         }
     ]
-    actual = diff([], [
-        {
-            "code": "10100100100",
-            "downtime": "2020-11-12 12:34:56",
-            "restore":  ""
-        },
-    ])
+    actual = diff(
+        [], 
+        [
+            {
+                "code": "10100100100",
+                "downtime": "2020-11-12 12:34:56",
+                "restore":  ""
+            },
+        ]
+    )
     assert expect == actual
 
 # def test_diff_new_record2():
